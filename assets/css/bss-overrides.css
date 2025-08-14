@@ -100,6 +100,10 @@ a {
   padding-top: 0!important;
 }
 
+.pt-4 {
+  padding-top: 1.5rem!important;
+}
+
 .pt-5 {
   padding-top: 3rem!important;
 }
@@ -126,6 +130,10 @@ a {
 
 .pe-0 {
   padding-right: 0!important;
+}
+
+.pe-3 {
+  padding-right: 1rem!important;
 }
 
 .pb-0 {
