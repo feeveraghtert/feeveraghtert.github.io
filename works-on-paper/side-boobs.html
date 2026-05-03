@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<title>side boobs - Fee Veraghtert</title>
+<link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter&amp;display=swap">
+<link rel="stylesheet" href="../assets/css/swiper-icons.css">
+<link rel="stylesheet" href="../assets/css/bss-overrides.css">
+<link rel="stylesheet" href="../assets/css/Hero-Carousel-images.css">
+<link rel="stylesheet" href="../assets/css/OwlCarousel2-Full-Screen.css">
+<link rel="stylesheet" href="../assets/css/Simple-Slider-swiper-bundle.min.css">
+<link rel="stylesheet" href="../assets/css/Simple-Slider.css">
+<link rel="stylesheet" href="../assets/css/fee-template.css">
+
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-expand-md bg-body fee-navbar" style="text-align:right;">
+    <div class="container-fluid">
+      <button class="navbar-toggler" data-bs-target="#navcol-1" data-bs-toggle="collapse">
+        <span class="visually-hidden">Toggle navigation</span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navcol-1">
+        <a class="navbar-brand logo" href="../index.html"><span>Fee Veraghtert</span></a>
+        <ul class="navbar-nav ms-auto ps-5">
+          <li class="nav-item me-3"><a class="nav-link" href="../paintings.html"><small>Paintings</small></a></li>
+          <li class="nav-item me-3"><a class="nav-link" href="../works on paper.html"><small>Works on paper</small></a></li>
+          <li class="nav-item me-3"><a class="nav-link" href="../exhibitions.html"><small>Exhibitions</small></a></li>
+          <li class="nav-item me-3"><a class="nav-link" href="../about.html"><small>About</small></a></li>
+          <li class="nav-item me-3"><a class="nav-link" href="../contact.html"><small>Contact</small></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<main class="work-detail">
+  <img class="work-detail-image" src="../assets/img/side boobs.png" data-fallbacks="../assets/img/side boobs.webp|../assets/img/side boobs.jpg|../assets/img/side boobs.jpeg|../assets/img/side boobs.JPG|../assets/img/side boobs.PNG|../assets/img/side boobs.WEBP|../assets/img/side boobs.JPEG" alt="side boobs">
+  <div class="work-detail-info">
+    <h1>side boobs</h1>
+    <div>2021</div>
+    <div>monoprint on Canson &quot;C&quot; à Grain 224gr</div>
+    <div class="work-detail-price">Price on request</div>
+  </div>
+  <div class="work-detail-nav"><a href="hot-springs.html">Previous</a><a href="../works on paper.html">Works on paper</a><a href="splash.html">Next</a></div>
+</main>
+<footer class="text-center"><div class="container mt-5 pt-5 my-4"><small><br>© 2025, Fee Veraghtert<br><br>&nbsp;<br><br></small></div></footer>
+<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="../assets/js/Simple-Slider-swiper-bundle.min.js"></script>
+<script src="../assets/js/Simple-Slider.js"></script>
+<script>
+(function(){
+  function installFallbacks(){
+    document.querySelectorAll('img[data-fallbacks]').forEach(function(img){
+      var list = img.getAttribute('data-fallbacks').split('|');
+      var i = 0;
+      img.onerror = function(){ if(i < list.length){ img.src = list[i++]; } };
+    });
+  }
+  if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', installFallbacks); else installFallbacks();
+})();
+</script>
+</body>
+</html>
