@@ -330,12 +330,21 @@ img { max-width: 100%; height: auto; display: block; }
    }
 }
 
-/* ===== Exhibitions-pagina: links beeld, rechts lijst ===== */
+/* ===== Exhibitions-pagina: links de lijst, rechts de foto's ===== */
 .expo {
    display: grid;
-   grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+   grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
    gap: 64px;
    align-items: start;
+}
+
+/* Lijst links, beeld rechts (HTML-volgorde blijft: beeld eerst) */
+.expo__view {
+   order: 2;
+}
+
+.expo__list {
+   order: 1;
 }
 
 .expo__item {
@@ -402,9 +411,7 @@ img { max-width: 100%; height: auto; display: block; }
       gap: 40px;
    }
 
-   .expo__list {
-      order: -1;
-   }
+   /* Lijst staat van zichzelf al boven het beeld dankzij order 1/2 */
 
    /* Grotere tikdoelen op touchscreens */
    .expo__list a,
@@ -413,3 +420,76 @@ img { max-width: 100%; height: auto; display: block; }
       font-size: 1rem;
    }
 }
+
+/* ===== Contactformulier ===== */
+.contact-form {
+   max-width: 480px;
+   margin-top: 44px;
+}
+
+.contact-form__row {
+   margin-bottom: 22px;
+}
+
+.contact-form__label {
+   display: block;
+   font-size: 0.72rem;
+   font-weight: 500;
+   letter-spacing: 0.12em;
+   text-transform: uppercase;
+   opacity: 0.5;
+   margin-bottom: 6px;
+}
+
+.contact-form__input {
+   width: 100%;
+   font-family: inherit;
+   font-size: 0.95rem;
+   color: inherit;
+   background: transparent;
+   padding: 10px 0;
+   border: 0;
+   border-bottom: 1px solid color-mix(in srgb, var(--text) 25%, transparent);
+   border-radius: 0;
+   outline: none;
+   transition: border-color .2s ease;
+}
+
+.contact-form__input:focus {
+   border-bottom-color: var(--text);
+}
+
+.contact-form__input--area {
+   resize: vertical;
+   min-height: 120px;
+}
+
+.contact-form__submit {
+   background: var(--text);
+   color: var(--background);
+   border: 0;
+   padding: 12px 30px;
+   font-family: inherit;
+   font-size: 0.8rem;
+   font-weight: 500;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+   cursor: pointer;
+   transition: opacity .2s ease;
+}
+
+.contact-form__submit:hover { opacity: .85; }
+.contact-form__submit:disabled { opacity: .5; cursor: wait; }
+
+.contact-form__hp {
+   display: none !important;
+}
+
+.contact-form__status {
+   font-size: 0.85rem;
+   margin: 16px 0 0;
+   min-height: 1.2em;
+}
+
+.contact-form__status--ok { opacity: .7; }
+.contact-form__status--err { opacity: .85; }

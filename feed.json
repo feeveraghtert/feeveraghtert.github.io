@@ -2,20 +2,20 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "Fee Veraghtert",
     "description": "",
-    "home_page_url": "https://feeveraghtert.com",
-    "feed_url": "https://feeveraghtert.com/feed.json",
+    "home_page_url": "",
+    "feed_url": "/feed.json",
     "user_comment": "",
     "author": {
         "name": "Fee Veraghtert"
     },
     "items": [
         {
-            "id": "https://feeveraghtert.com/obelisk/",
-            "url": "https://feeveraghtert.com/obelisk/",
+            "id": "/obelisk/",
+            "url": "/obelisk/",
             "title": "Obelisk",
             "summary": "2021 lithography on Zerkall 5 + 2 AP 43 x 53 cm",
             "content_html": "<p>2021<br>lithography on Zerkall<br>5 + 2 AP<br>43 x 53 cm</p>",
-            "image": "https://feeveraghtert.com/media/posts/62/obilisk-3-4.webp",
+            "image": "/media/posts/62/obilisk-3-4.webp",
             "author": {
                 "name": "Fee Veraghtert"
             },
@@ -25,12 +25,12 @@
             "date_modified": "2026-10-25T14:01:00+01:00"
         },
         {
-            "id": "https://feeveraghtert.com/koe-in-de-verte/",
-            "url": "https://feeveraghtert.com/koe-in-de-verte/",
+            "id": "/koe-in-de-verte/",
+            "url": "/koe-in-de-verte/",
             "title": "Koe in de verte",
             "summary": "2022 Lithography on Zerkall 4 + 2 AP",
             "content_html": "<p>2022<br>Lithography on Zerkall<br>4 + 2 AP</p>",
-            "image": "https://feeveraghtert.com/media/posts/61/oe-in-de-verte-2022-lithography-on-erkall-kopie.png",
+            "image": "/media/posts/61/oe-in-de-verte-2022-lithography-on-erkall-kopie.png",
             "author": {
                 "name": "Fee Veraghtert"
             },
@@ -40,12 +40,12 @@
             "date_modified": "2026-10-25T14:00:00+01:00"
         },
         {
-            "id": "https://feeveraghtert.com/red-hat-blauw/",
-            "url": "https://feeveraghtert.com/red-hat-blauw/",
+            "id": "/red-hat-blauw/",
+            "url": "/red-hat-blauw/",
             "title": "Red Hat (blauw)",
             "summary": "2022 Lithography and acrylic on Zerkall 3",
             "content_html": "<p>2022<br>Lithography and acrylic on Zerkall<br>3</p>",
-            "image": "https://feeveraghtert.com/media/posts/60/red-head-4-5-kopie.png",
+            "image": "/media/posts/60/red-head-4-5-kopie.png",
             "author": {
                 "name": "Fee Veraghtert"
             },
@@ -55,12 +55,12 @@
             "date_modified": "2026-10-25T13:59:00+01:00"
         },
         {
-            "id": "https://feeveraghtert.com/groen-aan-de-overkant/",
-            "url": "https://feeveraghtert.com/groen-aan-de-overkant/",
+            "id": "/groen-aan-de-overkant/",
+            "url": "/groen-aan-de-overkant/",
             "title": "Groen aan de overkant",
             "summary": "2022 lithography and vinyl paint on Zerkall 10 + 3 AP 19 x 26 cm",
             "content_html": "<p>2022<br>lithography and vinyl paint on Zerkall<br>10 + 3 AP<br>19 x 26 cm</p>",
-            "image": "https://feeveraghtert.com/media/posts/59/2022-groen-aan-de-overkant-lithography-and-flashe-vinylpaint-on-paper.png",
+            "image": "/media/posts/59/2022-groen-aan-de-overkant-lithography-and-flashe-vinylpaint-on-paper.png",
             "author": {
                 "name": "Fee Veraghtert"
             },
@@ -70,12 +70,12 @@
             "date_modified": "2026-10-25T13:58:00+01:00"
         },
         {
-            "id": "https://feeveraghtert.com/splash/",
-            "url": "https://feeveraghtert.com/splash/",
+            "id": "/splash/",
+            "url": "/splash/",
             "title": "splash",
             "summary": "2021 monoprint on canson “C” à Grain 224gr 100 x 150 cm",
             "content_html": "<p>2021<br>monoprint on canson “C” à Grain 224gr<br>100 x 150 cm</p>",
-            "image": "https://feeveraghtert.com/media/posts/58/splash-kopie.png",
+            "image": "/media/posts/58/splash-kopie.png",
             "author": {
                 "name": "Fee Veraghtert"
             },
@@ -85,12 +85,12 @@
             "date_modified": "2026-10-25T13:57:00+01:00"
         },
         {
-            "id": "https://feeveraghtert.com/side-boob/",
-            "url": "https://feeveraghtert.com/side-boob/",
+            "id": "/side-boob/",
+            "url": "/side-boob/",
             "title": "side boob",
             "summary": "2021 monoprint on canson “C” à Grain 224gr 100 x 150 cm",
             "content_html": "<p>2021<br>monoprint on canson “C” à Grain 224gr<br>100 x 150 cm</p>",
-            "image": "https://feeveraghtert.com/media/posts/57/side-boobs.png",
+            "image": "/media/posts/57/side-boobs.png",
             "author": {
                 "name": "Fee Veraghtert"
             },
@@ -100,12 +100,12 @@
             "date_modified": "2026-10-25T13:56:00+01:00"
         },
         {
-            "id": "https://feeveraghtert.com/hot-springs/",
-            "url": "https://feeveraghtert.com/hot-springs/",
+            "id": "/hot-springs/",
+            "url": "/hot-springs/",
             "title": "Hot springs",
             "summary": "2022 lithography on Somerset 5 + 2 AP",
             "content_html": "<p>2022<br>lithography on Somerset<br>5 + 2 AP</p>",
-            "image": "https://feeveraghtert.com/media/posts/56/ot-springs-2022-lithography-on-erkall-kopie-2.png",
+            "image": "/media/posts/56/ot-springs-2022-lithography-on-erkall-kopie-2.png",
             "author": {
                 "name": "Fee Veraghtert"
             },
@@ -115,12 +115,12 @@
             "date_modified": "2026-10-25T13:55:00+01:00"
         },
         {
-            "id": "https://feeveraghtert.com/please-play-chess-with-me/",
-            "url": "https://feeveraghtert.com/please-play-chess-with-me/",
+            "id": "/please-play-chess-with-me/",
+            "url": "/please-play-chess-with-me/",
             "title": "Please play chess with me",
             "summary": "2021 lithography and screenprint on Zerkall 4 + 2 AP 43 x 53 cm",
             "content_html": "<p>2021<br>lithography and screenprint on Zerkall<br>4 + 2 AP<br>43 x 53 cm</p>",
-            "image": "https://feeveraghtert.com/media/posts/55/lease-play-chess-with-me.png",
+            "image": "/media/posts/55/lease-play-chess-with-me.png",
             "author": {
                 "name": "Fee Veraghtert"
             },
@@ -130,12 +130,12 @@
             "date_modified": "2026-10-25T13:54:00+01:00"
         },
         {
-            "id": "https://feeveraghtert.com/front-door/",
-            "url": "https://feeveraghtert.com/front-door/",
+            "id": "/front-door/",
+            "url": "/front-door/",
             "title": "Front door",
             "summary": "2022 Lithography and acrylics on Zerkall 5 + 3 AP",
             "content_html": "<p>2022<br>Lithography and acrylics on Zerkall<br>5 + 3 AP</p>",
-            "image": "https://feeveraghtert.com/media/posts/54/ront-door-hoge-res-kopie.png",
+            "image": "/media/posts/54/ront-door-hoge-res-kopie.png",
             "author": {
                 "name": "Fee Veraghtert"
             },
@@ -145,12 +145,12 @@
             "date_modified": "2026-10-25T13:53:00+01:00"
         },
         {
-            "id": "https://feeveraghtert.com/crocodile-boulevard/",
-            "url": "https://feeveraghtert.com/crocodile-boulevard/",
+            "id": "/crocodile-boulevard/",
+            "url": "/crocodile-boulevard/",
             "title": "Crocodile Boulevard",
             "summary": "2022 lithography and spraypaint on Zerkall 4 + 2 AP 43 x 53 cm",
             "content_html": "<p>2022<br>lithography and spraypaint on Zerkall<br>4 + 2 AP<br>43 x 53 cm</p>",
-            "image": "https://feeveraghtert.com/media/posts/53/rocodile-oulevard.png",
+            "image": "/media/posts/53/rocodile-oulevard.png",
             "author": {
                 "name": "Fee Veraghtert"
             },
