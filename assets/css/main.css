@@ -48,7 +48,7 @@ img { max-width: 100%; height: auto; display: block; }
    margin: 0 auto;
    display: flex;
    flex-wrap: wrap;
-   align-items: baseline;
+   align-items: center;
    justify-content: space-between;
    gap: 12px 32px;
 }
@@ -57,6 +57,7 @@ img { max-width: 100%; height: auto; display: block; }
    font-size: 1.35em;
    font-weight: 500;
    letter-spacing: .02em;
+   line-height: 1;
 }
 
 #logo img { max-height: 48px; width: auto; }
@@ -180,8 +181,8 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 .artwork__zone:hover { opacity: .5; }
-.artwork__zone--left { left: 0; cursor: w-resize; }
-.artwork__zone--right { right: 0; cursor: e-resize; }
+.artwork__zone--left { left: 0; cursor: default; }
+.artwork__zone--right { right: 0; cursor: default; }
 
 /* ---------- Statische pagina's ---------- */
 
@@ -192,7 +193,7 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 .page-description, .static-page__content {
-   max-width: 640px;
+   max-width: 840px;
    font-size: .95em;
 }
 
@@ -203,11 +204,23 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 /* Photo on the About/Contact pages */
+/* About-pagina: foto links (ruim), tekst volledig rechts in eigen kolom */
+.about-layout {
+   display: grid;
+   grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+   gap: 40px;
+   align-items: start;
+}
+
 .about-photo {
    display: block;
    width: 100%;
    height: auto;
-   margin: 4px 0 28px;
+   margin: 0;
+}
+
+.about-text p:first-child {
+   margin-top: 0;
 }
 
 .static-page h1 {
@@ -295,8 +308,8 @@ img { max-width: 100%; height: auto; display: block; }
 
    .artwork__zone:active { opacity: 1; }
 
-   .artwork__zone--left { left: auto; cursor: pointer; }
-   .artwork__zone--right { right: auto; cursor: pointer; }
+   .artwork__zone--left { left: auto; cursor: default; }
+   .artwork__zone--right { right: auto; cursor: default; }
 }
 
 @media (max-width: 520px) {
@@ -351,10 +364,8 @@ img { max-width: 100%; height: auto; display: block; }
    gap: 48px;
    align-items: start;
 
-   /* Doorbraak boven de gewone inhoudsbreedte: de beelden worden
-      veel groter en de pagina oogt ruimer en cleaner. */
-   width: min(1400px, calc(100vw - 72px));
-   margin-left: calc(50% - min(1400px, calc(100vw - 72px)) / 2);
+   /* Binnen de gewone inhoudsbreedte: links/rechts evenveel witte marge
+      als op de Paintings- en Works-on-paper-overzichtspagina's. */
 }
 
 /* Lijst links, teaser rechts (HTML-volgorde blijft: lijst eerst) */
@@ -364,6 +375,10 @@ img { max-width: 100%; height: auto; display: block; }
 
 .expo__list {
    order: 1;
+}
+
+.expo__teaser p {
+   margin: 0;
 }
 
 .expo__teaser img {
@@ -383,6 +398,16 @@ img { max-width: 100%; height: auto; display: block; }
 
 .expo__list .expo__year:first-child {
    margin-top: 0;
+}
+
+/* Jaartal rechts naast de expo-titel in de lijst (komt uit de post-datum) */
+.expo__list .expo__item-year {
+   font-size: 0.75rem;
+   font-weight: 500;
+   letter-spacing: 0.08em;
+   margin-left: 10px;
+   opacity: 1;
+   white-space: nowrap;
 }
 
 .expo__list a,
@@ -408,39 +433,29 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 /* ===== Expo-post: detailpagina van één expositie ===== */
-.expo-post__back {
-   margin: 0 0 20px;
-   font-size: 0.75rem;
-   font-weight: 500;
-   letter-spacing: 0.1em;
-   text-transform: uppercase;
-}
-
-.expo-post__back a {
-   color: inherit;
-   opacity: 0.45;
-}
-
-.expo-post__back a:hover {
-   opacity: 1;
-}
-
 .expo-post__title {
    font-size: 1.05rem;
    font-weight: 300;
    margin: 0 0 28px;
 }
 
-.expo-post__images {
-   width: min(1400px, calc(100vw - 72px));
-   margin-left: calc(50% - min(1400px, calc(100vw - 72px)) / 2);
+.expo-post__year {
+   font-size: 0.85em;
+   font-weight: 300;
+   opacity: 1;
+   margin-left: 6px;
+   white-space: nowrap;
 }
 
 .expo-post__images img {
    display: block;
-   width: 100%;
+   max-width: 100%;
+   /* Merkelijk kleiner dan een vol scherm, maar nog steeds groot genoeg
+      om het hele beeld in één keer te zien zonder te scrollen. */
+   max-height: calc(100vh - 300px);
+   width: auto;
    height: auto;
-   margin: 0 0 24px;
+   margin: 0 auto 28px;
 }
 
 .expo-post__images img:last-child {
@@ -448,11 +463,14 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 @media (max-width: 900px) {
+   .about-layout {
+      grid-template-columns: 1fr;
+      gap: 24px;
+   }
+
    .expo {
       grid-template-columns: 1fr;
       gap: 40px;
-      width: auto;
-      margin-left: 0;
    }
 
    /* Lijst staat van zichzelf al boven het beeld dankzij order 1/2 */
