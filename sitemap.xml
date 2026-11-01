@@ -13,8 +13,24 @@
 </image:image>
 </url>
 <url>
+<loc>/a-picnic-frenzy/</loc>
+<lastmod>2026-10-25T14:12:00+01:00</lastmod>
+<image:image>
+<image:loc>/media/posts/73/a-picnic-frenzy-2021-1.png</image:loc>
+<image:title><![CDATA[A Picnic frenzy, Apprentice Master Project, TAC Eindhoven (NL), 2021]]></image:title>
+</image:image>
+<image:image>
+<image:loc>/media/posts/73/a-picnic-frenzy-2021-2.jpg</image:loc>
+<image:title><![CDATA[A Picnic frenzy, Apprentice Master Project, TAC Eindhoven (NL), 2021]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>/about/</loc>
 <lastmod>2026-10-25T14:03:00+01:00</lastmod>
+<image:image>
+<image:loc>/media/posts/64/achtergrond-about.webp</image:loc>
+<image:title><![CDATA[Fee Veraghtert]]></image:title>
+</image:image>
 </url>
 <url>
 <loc>/barbapapa-2020/</loc>
@@ -22,6 +38,18 @@
 <image:image>
 <image:loc>/media/posts/36/barbapapa-2020.webp</image:loc>
 <image:title><![CDATA[undefined]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>/belgian-art-design-fair/</loc>
+<lastmod>2026-10-25T14:11:00+01:00</lastmod>
+<image:image>
+<image:loc>/media/posts/72/belgian-art-design-fair-2021-1.jpg</image:loc>
+<image:title><![CDATA[Belgian Art & Design Fair, Floraliënhal Gent (BE), 2021]]></image:title>
+</image:image>
+<image:image>
+<image:loc>/media/posts/72/belgian-art-design-fair-2021-2.jpg</image:loc>
+<image:title><![CDATA[Belgian Art & Design Fair, Floraliënhal Gent (BE), 2021]]></image:title>
 </image:image>
 </url>
 <url>
@@ -57,8 +85,24 @@
 </image:image>
 </url>
 <url>
+<loc>/cake-aan-de-zee/</loc>
+<lastmod>2026-10-25T14:10:00+01:00</lastmod>
+<image:image>
+<image:loc>/media/posts/71/cake-aan-de-zee-2021-1.png</image:loc>
+<image:title><![CDATA[Cake aan de zee, Gym Hasselt (BE), 2021]]></image:title>
+</image:image>
+<image:image>
+<image:loc>/media/posts/71/cake-aan-de-zee-2021-2.jpg</image:loc>
+<image:title><![CDATA[Cake aan de zee, Gym Hasselt (BE), 2021]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>/contact/</loc>
 <lastmod>2026-10-25T14:04:00+01:00</lastmod>
+<image:image>
+<image:loc>/media/posts/65/achtergrond-about.webp</image:loc>
+<image:title><![CDATA[Fee Veraghtert]]></image:title>
+</image:image>
 </url>
 <url>
 <loc>/crocodile-boulevard/</loc>
@@ -82,6 +126,18 @@
 <image:image>
 <image:loc>/media/posts/23/e-grote-heide-2020-oil-acryl-spraypaint-charcoal-on-canvas.webp</image:loc>
 <image:title><![CDATA[undefined]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>/de-kunstwedstrijd-vrije-grafiek/</loc>
+<lastmod>2026-10-25T14:05:00+01:00</lastmod>
+<image:image>
+<image:loc>/media/posts/66/de-kunstwedstrijd-vrije-grafiek-1.jpg</image:loc>
+<image:title><![CDATA[De kunstwedstrijd vrije grafiek, Cultuurcentrum Zwanenberg (BE), 2024]]></image:title>
+</image:image>
+<image:image>
+<image:loc>/media/posts/66/de-kunstwedstrijd-vrije-grafiek-2.jpg</image:loc>
+<image:title><![CDATA[De kunstwedstrijd vrije grafiek, Cultuurcentrum Zwanenberg (BE), 2024]]></image:title>
 </image:image>
 </url>
 <url>
@@ -109,71 +165,35 @@
 </image:image>
 </url>
 <url>
+<loc>/een-blik-achter-de-muur/</loc>
+<lastmod>2026-10-25T14:13:00+01:00</lastmod>
+<image:image>
+<image:loc>/media/posts/74/een-blik-achter-de-muur-2021.jpg</image:loc>
+<image:title><![CDATA[Een blik achter de muur, Blikfabriek Hoboken (BE), 2020/2021]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>/excited/</loc>
+<lastmod>2026-10-25T14:09:00+01:00</lastmod>
+<image:image>
+<image:loc>/media/posts/70/excited-2022-1.jpg</image:loc>
+<image:title><![CDATA[Excited, MadGallery (BE), 2022]]></image:title>
+</image:image>
+<image:image>
+<image:loc>/media/posts/70/excited-2022-2.png</image:loc>
+<image:title><![CDATA[Excited, MadGallery (BE), 2022]]></image:title>
+</image:image>
+<image:image>
+<image:loc>/media/posts/70/excited-2022-3.jpg</image:loc>
+<image:title><![CDATA[Excited, MadGallery (BE), 2022]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>/exhibitions/</loc>
 <lastmod>2026-10-25T14:02:00+01:00</lastmod>
 <image:image>
-<image:loc>/media/posts/63/de-kunstwedstrijd-vrije-grafiek-1.jpg</image:loc>
+<image:loc>/media/posts/63/expo-teaser.jpg</image:loc>
 <image:title><![CDATA[De kunstwedstrijd vrije grafiek, Cultuurcentrum Zwanenberg (BE), 2024]]></image:title>
-</image:image>
-<image:image>
-<image:loc>/media/posts/63/de-kunstwedstrijd-vrije-grafiek-2.jpg</image:loc>
-<image:title><![CDATA[De kunstwedstrijd vrije grafiek, Cultuurcentrum Zwanenberg (BE), 2024]]></image:title>
-</image:image>
-<image:image>
-<image:loc>/media/posts/63/tussen-de-soep-en-de-patatten-2023.jpg</image:loc>
-<image:title><![CDATA[Tussen de soep en de patatten, FAX Hasselt (BE), 2023]]></image:title>
-</image:image>
-<image:image>
-<image:loc>/media/posts/63/hortes-horti-horto.png</image:loc>
-<image:title><![CDATA[hortes horti horto, kalf space Hasselt (BE), 2023]]></image:title>
-</image:image>
-<image:image>
-<image:loc>/media/posts/63/hindsight-2022-1.jpg</image:loc>
-<image:title><![CDATA[Hindsight, B32 Artspace, Maastricht (NL), 2022]]></image:title>
-</image:image>
-<image:image>
-<image:loc>/media/posts/63/hindsight-2022-2.jpg</image:loc>
-<image:title><![CDATA[Hindsight, B32 Artspace, Maastricht (NL), 2022]]></image:title>
-</image:image>
-<image:image>
-<image:loc>/media/posts/63/excited-2022-1.jpg</image:loc>
-<image:title><![CDATA[Excited, MadGallery (BE), 2022]]></image:title>
-</image:image>
-<image:image>
-<image:loc>/media/posts/63/excited-2022-2.png</image:loc>
-<image:title><![CDATA[Excited, MadGallery (BE), 2022]]></image:title>
-</image:image>
-<image:image>
-<image:loc>/media/posts/63/excited-2022-3.jpg</image:loc>
-<image:title><![CDATA[Excited, MadGallery (BE), 2022]]></image:title>
-</image:image>
-<image:image>
-<image:loc>/media/posts/63/cake-aan-de-zee-2021-1.png</image:loc>
-<image:title><![CDATA[Cake aan de zee, Gym Hasselt (BE), 2021]]></image:title>
-</image:image>
-<image:image>
-<image:loc>/media/posts/63/cake-aan-de-zee-2021-2.jpg</image:loc>
-<image:title><![CDATA[Cake aan de zee, Gym Hasselt (BE), 2021]]></image:title>
-</image:image>
-<image:image>
-<image:loc>/media/posts/63/belgian-art-design-fair-2021-1.jpg</image:loc>
-<image:title><![CDATA[Belgian Art &amp; Design Fair, Floraliënhal Gent (BE), 2021]]></image:title>
-</image:image>
-<image:image>
-<image:loc>/media/posts/63/belgian-art-design-fair-2021-2.jpg</image:loc>
-<image:title><![CDATA[Belgian Art &amp; Design Fair, Floraliënhal Gent (BE), 2021]]></image:title>
-</image:image>
-<image:image>
-<image:loc>/media/posts/63/a-picnic-frenzy-2021-1.png</image:loc>
-<image:title><![CDATA[A Picnic frenzy, Apprentice Master Project, TAC Eindhoven (NL), 2021]]></image:title>
-</image:image>
-<image:image>
-<image:loc>/media/posts/63/a-picnic-frenzy-2021-2.jpg</image:loc>
-<image:title><![CDATA[A Picnic frenzy, Apprentice Master Project, TAC Eindhoven (NL), 2021]]></image:title>
-</image:image>
-<image:image>
-<image:loc>/media/posts/63/een-blik-achter-de-muur-2021.jpg</image:loc>
-<image:title><![CDATA[Een blik achter de muur, Blikfabriek Hoboken (BE), 2020/2021]]></image:title>
 </image:image>
 </url>
 <url>
@@ -222,6 +242,26 @@
 <image:image>
 <image:loc>/media/posts/41/ighway-2020-oil-on-linen-28-x-49-cm.webp</image:loc>
 <image:title><![CDATA[undefined]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>/hindsight/</loc>
+<lastmod>2026-10-25T14:08:00+01:00</lastmod>
+<image:image>
+<image:loc>/media/posts/69/hindsight-2022-1.jpg</image:loc>
+<image:title><![CDATA[Hindsight, B32 Artspace, Maastricht (NL), 2022]]></image:title>
+</image:image>
+<image:image>
+<image:loc>/media/posts/69/hindsight-2022-2.jpg</image:loc>
+<image:title><![CDATA[Hindsight, B32 Artspace, Maastricht (NL), 2022]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>/hortes-horti-horto/</loc>
+<lastmod>2026-10-25T14:07:00+01:00</lastmod>
+<image:image>
+<image:loc>/media/posts/68/hortes-horti-horto.png</image:loc>
+<image:title><![CDATA[hortes horti horto, kalf space Hasselt (BE), 2023]]></image:title>
 </image:image>
 </url>
 <url>
@@ -486,6 +526,14 @@
 <image:image>
 <image:loc>/media/posts/24/ripple-aurus-2020-oil-on-canvas-25x36-cm.webp</image:loc>
 <image:title><![CDATA[undefined]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>/tussen-de-soep-en-de-patatten/</loc>
+<lastmod>2026-10-25T14:06:00+01:00</lastmod>
+<image:image>
+<image:loc>/media/posts/67/tussen-de-soep-en-de-patatten-2023.jpg</image:loc>
+<image:title><![CDATA[Tussen de soep en de patatten, FAX Hasselt (BE), 2023]]></image:title>
 </image:image>
 </url>
 <url>
