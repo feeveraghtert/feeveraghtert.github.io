@@ -126,10 +126,14 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 .artwork__image img {
-   width: 100%;
-   height: auto;
-   max-width: 100%;
    display: block;
+   max-width: 100%;
+   /* Het hele schilderij past in één keer in het scherm, zonder te scrollen
+      (zelfde formule als op de expo-pagina's). */
+   max-height: calc(100vh - 240px);
+   width: auto;
+   height: auto;
+   margin: 0 auto;
 }
 
 .artwork__image figcaption {
@@ -193,7 +197,8 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 .page-description, .static-page__content {
-   max-width: 840px;
+   max-width: 1000px;
+   margin: 0 auto;
    font-size: .95em;
 }
 
@@ -207,8 +212,8 @@ img { max-width: 100%; height: auto; display: block; }
 /* About-pagina: foto links (ruim), tekst volledig rechts in eigen kolom */
 .about-layout {
    display: grid;
-   grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
-   gap: 40px;
+   grid-template-columns: minmax(0, 6fr) minmax(0, 5fr);
+   gap: 44px;
    align-items: start;
 }
 
@@ -387,27 +392,19 @@ img { max-width: 100%; height: auto; display: block; }
    height: auto;
 }
 
+/* Jaartal als kop boven de tentoonstellingen van dat jaar
+   (komt uit de post-datum; gegroepeerd door de exposByYear-helper) */
 .expo__list .expo__year {
-   font-size: 0.75rem;
+   font-size: 0.85rem;
    font-weight: 600;
    letter-spacing: 0.12em;
    text-transform: uppercase;
-   opacity: 0.45;
-   margin: 28px 0 6px 0;
-}
-
-.expo__list .expo__year:first-child {
-   margin-top: 0;
-}
-
-/* Jaartal rechts naast de expo-titel in de lijst (komt uit de post-datum) */
-.expo__list .expo__item-year {
-   font-size: 0.75rem;
-   font-weight: 500;
-   letter-spacing: 0.08em;
-   margin-left: 10px;
    opacity: 1;
-   white-space: nowrap;
+   margin: 32px 0 4px 0;
+}
+
+.expo__group:first-child .expo__year {
+   margin-top: 0;
 }
 
 .expo__list a,
@@ -450,9 +447,9 @@ img { max-width: 100%; height: auto; display: block; }
 .expo-post__images img {
    display: block;
    max-width: 100%;
-   /* Merkelijk kleiner dan een vol scherm, maar nog steeds groot genoeg
-      om het hele beeld in één keer te zien zonder te scrollen. */
-   max-height: calc(100vh - 300px);
+   /* Terug wat groter: het hele beeld past nog steeds in één keer
+      in het scherm, zonder te scrollen. */
+   max-height: calc(100vh - 240px);
    width: auto;
    height: auto;
    margin: 0 auto 28px;
@@ -462,10 +459,45 @@ img { max-width: 100%; height: auto; display: block; }
    margin-bottom: 0;
 }
 
+/* Artwall: zet in de editor twee of meer foto's direct achter elkaar op
+   één regel — ze stromen als een galerijmuur in twee kolommen. Elke foto
+   behoudt zijn eigen verhouding en hoogte; boven- en onderkant lijnen
+   dus NIET uit, zoals bij een wand met kunst. */
+.expo-post__images p:has(img + img) {
+   columns: 2;
+   column-gap: 28px;
+   margin: 0 0 28px;
+}
+
+.expo-post__images p:has(img + img):last-child {
+   margin-bottom: 0;
+}
+
+.expo-post__images p:has(img + img) img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+   margin: 0 0 28px;
+   break-inside: avoid;
+}
+
+.expo-post__images p:has(img + img) img:last-child {
+   margin-bottom: 0;
+}
+
 @media (max-width: 900px) {
    .about-layout {
       grid-template-columns: 1fr;
       gap: 24px;
+   }
+
+   .expo-post__images p:has(img + img) {
+      columns: 1;
+      margin-bottom: 0;
+   }
+
+   .expo-post__images p:has(img + img) img {
+      margin: 0 0 24px;
    }
 
    .expo {
@@ -486,7 +518,7 @@ img { max-width: 100%; height: auto; display: block; }
 /* ===== Contactformulier ===== */
 .contact-form {
    max-width: 480px;
-   margin-top: 44px;
+   margin: 44px auto 0;
 }
 
 .contact-form__row {
